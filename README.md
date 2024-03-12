@@ -1,6 +1,6 @@
 # Eunoia
 
-Introducing Eunoia! A Next.js 14-based online collaborative tool created for efficient project management.
+Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient project management.
 
 ### Key Features:
 
