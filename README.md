@@ -25,6 +25,7 @@ Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient
 -   Prisma
 -   Stripe
 -   Tailwind
+-   ShadcnUI
 -   MySQL
 
 ### Prerequisites
