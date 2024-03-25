@@ -34,7 +34,7 @@ Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient
 
 -   **npm/yarn**
 
-### Cloning the repository
+### Clone the repository
 
 ```shell
 git clone https://github.com/chrisstef/eunoia.git
