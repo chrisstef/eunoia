@@ -21,7 +21,6 @@ Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient
 
 -   Next.js 14
 -   Server Actions
--   React
 -   Prisma
 -   Stripe
 -   Tailwind
