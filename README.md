@@ -4,34 +4,33 @@ Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient
 
 ### Key Features:
 
--   [x] Organizations / Workspaces
--   [x] Board creation
--   [x] Unsplash API for random cover images
--   [x] Activity log for entire organization
--   [x] Board rename and delete
--   [x] List creation
--   [x] List rename, delete, drag & drop reorder and copy
--   [x] Card creation
--   [x] Card description, rename, delete, drag & drop reorder and copy
--   [x] Card activity log
--   [x] Board limit for every organization
--   [x] Stripe subscription for each organization to unlock unlimited boards
+- [x] Organizations / Workspaces
+- [x] Board creation
+- [x] Unsplash API for random cover images
+- [x] Activity log for entire organization
+- [x] Board rename and delete
+- [x] List creation
+- [x] List rename, delete, drag & drop reorder and copy
+- [x] Card creation
+- [x] Card description, rename, delete, drag & drop reorder and copy
+- [x] Card activity log
+- [x] Board limit for every organization
+- [x] Stripe subscription for each organization to unlock unlimited boards
 
 ### Tech Stack
 
--   Next.js 14
--   Server Actions
--   Prisma
--   Stripe
--   Tailwind
--   ShadcnUI
--   MySQL
+- Next.js 14
+- Server Actions
+- Stripe
+- Tailwind
+- ShadcnUI
+- PostgreSQL
 
-### Prerequisites
+### Run locally
 
--   **Node version 18.x.x**
+- **Node version 18.x.x**
 
--   **npm/yarn**
+- **npm/yarn**
 
 ### Clone the repository
 
@@ -51,7 +50,7 @@ or
 yarn
 ```
 
-### Setup `.env` file
+#### Setup `.env` file
 
 ```js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -60,28 +59,14 @@ NEXT_PUBLIC_CLERK_SIGN_IN_URL=
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=
-
 DATABASE_URL=
-
 NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=
-
 STRIPE_API_KEY=
-
 NEXT_PUBLIC_APP_URL=
-
 STRIPE_WEBHOOK_SECRET=
 ```
 
-### Setup Prisma
-
-Add MySQL Database (I used PlanetScale)
-
-```shell
-npx prisma generate
-npx prisma db push
-```
-
-### Start the app
+#### Start the app
 
 ```shell
 npm run dev

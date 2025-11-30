@@ -34,6 +34,7 @@ export const ProModal = () => {
                         alt="Hero"
                         className="object-cover"
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                 </div>
                 <div className="text-neutral-700 mx-auto space-y-6 p-6">
