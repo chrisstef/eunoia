@@ -21,11 +21,10 @@ Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient
 
 - Next.js 14
 - Server Actions
-- Prisma
 - Stripe
 - Tailwind
 - ShadcnUI
-- MySQL
+- PostgreSQL
 
 ### Run locally
 
@@ -65,15 +64,6 @@ NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=
 STRIPE_API_KEY=
 NEXT_PUBLIC_APP_URL=
 STRIPE_WEBHOOK_SECRET=
-```
-
-#### Setup Prisma
-
-Add MySQL Database (I used PlanetScale)
-
-```shell
-npx prisma generate
-npx prisma db push
 ```
 
 #### Start the app
