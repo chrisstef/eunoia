@@ -1,30 +1,30 @@
 # Eunoia
 
-Introducing Eunoia! A Next.js 14-based online collaborative tool tailored for efficient project management.
+Introducing Eunoia! A Next.js 14 online collaborative tool created for efficient project management.
 
 ### Key Features:
 
-- Organizations / Workspaces
-- Board creation
-- Unsplash API for random beautiful cover images
-- Activity log for entire organization
-- Board rename and delete
-- List creation
-- List rename, delete, drag & drop reorder and copy
-- Card creation
-- Card description, rename, delete, drag & drop reorder and copy
-- Card activity log
-- Board limit for every organization
-- Stripe subscription for each organization to unlock unlimited boards
+- [x] Organizations / Workspaces
+- [x] Board creation
+- [x] Unsplash API for random cover images
+- [x] Activity log for entire organization
+- [x] Board rename and delete
+- [x] List creation
+- [x] List rename, delete, drag & drop reorder and copy
+- [x] Card creation
+- [x] Card description, rename, delete, drag & drop reorder and copy
+- [x] Card activity log
+- [x] Board limit for every organization
+- [x] Stripe subscription for each organization to unlock unlimited boards
 
 ### Tech Stack
 
 - Next.js 14
 - Server Actions
-- React
 - Prisma
 - Stripe
 - Tailwind
+- ShadcnUI
 - MySQL
 
 ### Run locally
@@ -33,7 +33,7 @@ Introducing Eunoia! A Next.js 14-based online collaborative tool tailored for ef
 
 - **npm/yarn**
 
-#### Cloning the repository
+### Clone the repository
 
 ```shell
 git clone https://github.com/chrisstef/eunoia.git
